@@ -1,0 +1,184 @@
+
+img{
+max-width:100%;
+height:auto;
+}
+
+/* NAVBAR */
+
+.navbar{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+background:transparent;
+z-index:1000;
+padding:10px 20px;
+}
+
+/* LOGO */
+
+.logo{
+display:flex;
+align-items:center;
+color:white;
+font-size:20px;
+font-weight:bold;
+}
+
+.logo img{
+height:40px;
+margin-right:10px;
+}
+
+
+/* BODY */
+
+body{
+font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+background:#f5f5f4;
+text-align:center;
+color:#1c1917;
+}
+
+/* HERO / WELCOME SECTION */
+
+.welcome{
+background:
+linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url("Background.jpg");
+
+background-size:cover;
+background-position:center;
+background-repeat:no-repeat;
+
+padding:80px 20px;
+color:white;
+}
+
+.welcome h1{
+font-family:'Caveat', cursive;
+font-size:60px;
+font-weight:700;
+letter-spacing:2px;
+line-height:1.2;
+text-shadow:3px 3px 10px rgba(0,0,0,0.6);
+margin-bottom:10px;
+}
+
+.welcome h2{
+font-family:Arial, sans-serif;
+color:#f5f5f5;
+letter-spacing:1px;
+}
+
+/* INTRO SECTION */
+
+.intro{
+padding:40px;
+background:#ffffff;
+color:#57534e;
+}
+
+.intro h2{
+font-family:Georgia, serif;
+font-size:26px;
+color:#8b7355;
+font-weight:bold;
+margin-bottom:20px;
+}
+
+.intro p{
+font-family:Georgia, serif;
+font-size:20px;
+color:#2f3e46;
+font-style:italic;
+line-height:1.6;
+max-width:800px;
+margin:auto;
+}
+
+/* MENU BUTTONS */
+
+.menu{
+padding:30px;
+}
+
+.menu a{
+display:block;
+width:260px;
+margin:15px auto;
+padding:15px;
+background:#8b7355;
+color:white;
+text-decoration:none;
+font-size:18px;
+border-radius:6px;
+transition:0.3s;
+box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.menu a:hover{
+background:#6f5a44;
+transform:scale(1.05);
+}
+
+/* SOCIAL ICONS */
+
+.social{
+margin-top:40px;
+}
+
+.social a{
+font-size:28px;
+margin:15px;
+text-decoration:none;
+}
+.social a:hover{
+transform:scale(1.2);
+transition:0.3s;
+}
+.linkedin i{
+color:#0077b5;
+}
+
+.email i{
+color:#d44638;
+}
+
+.github i{
+color:#000000;
+}
+
+/* FOOTER */
+
+footer{
+margin-top:60px;
+/* padding:50px 0; */
+text-align:center;
+background:#f1f5f9;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width:768px){
+
+.navbar{
+flex-direction:column;
+align-items:flex-start;
+}
+
+.welcome h1{
+font-size:30px;
+}
+
+.welcome h2{
+font-size:20px;
+}
+
+}
