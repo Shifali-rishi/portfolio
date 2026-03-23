@@ -29,8 +29,8 @@ This is my personal portfolio website showcasing my projects, skills, and certif
 This portfolio represents my journey as a beginner and demonstrates my ability to build real-world projects and present them professionally.
 
 ## 📬 Contact
-📧 Email: rishishifali@gmail.com  
-🔗 LinkedIn: https://linkedin.com/in/yourname  
+📧 Email: rishishifali1@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/shifali-rishi-38105a387
 💻 GitHub: https://github.com/Shifali-rishi 
 
 ---
