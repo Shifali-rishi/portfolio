@@ -5,14 +5,14 @@ font-family:'Poppins', sans-serif;
 
 /* Header Section */
 
-.project-header{
+.cert-header{
 background: url('certificate.jpg') no-repeat center/cover;
 color:white;
 text-align:center;
 padding:100px 20px;
 }
 
-.project-header h1{
+.cert-header h1{
 font-family: 'Playfair Display', serif;
 font-size: 60px;
 font-style: italic;
@@ -76,8 +76,11 @@ margin-right:10px;
 }
 
 .cert-card img {
-    width: 600px;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
     margin-bottom: 15px;
+    border-radius: 8px;
 }
 
 .cert-card h2 {
@@ -166,14 +169,6 @@ background:#f1f5f9;
 .navbar{
 flex-direction:column;
 align-items:flex-start;
-}
-
-.welcome h1{
-font-size:30px;
-}
-
-.welcome h2{
-font-size:20px;
 }
 
 }

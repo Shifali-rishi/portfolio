@@ -1,19 +1,27 @@
-body {
+/* body {
   font-family: Arial, sans-serif;
   background: #f4f6f8;
   margin: 0;
   padding: 0;
+} */
+body{
+font-family:Arial, sans-serif;
+margin:0;
+padding:0;
+background:#f5f5f4;
+text-align:center;
+color:#1c1917;
 }
 /* Header Section */
 
-.project-header{
+.contact-header{
 background: url('contact.webp') no-repeat center/cover;
 color:white;
 text-align:center;
 padding:100px 20px;
 }
 
-.project-header h1{
+.contact-header h1{
 font-family: 'Playfair Display', serif;
 font-size: 60px;
 font-style: italic;
@@ -56,12 +64,18 @@ height:40px;
 margin-right:10px;
 }
 .contact-container {
-  max-width: 800px;
+  /* max-width: 800px;
   margin: 50px auto;
   background: #fff;
   padding: 30px;
   border-radius: 12px;
-  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1); */
+    max-width: 800px;
+    margin: 25px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.15);
 }
 .contact-container h1{
     font-family:Georgia, serif;
@@ -202,14 +216,6 @@ background:#f1f5f9;
 .navbar{
 flex-direction:column;
 align-items:flex-start;
-}
-
-.welcome h1{
-font-size:30px;
-}
-
-.welcome h2{
-font-size:20px;
 }
 
 }
